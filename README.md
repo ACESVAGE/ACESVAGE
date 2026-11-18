@@ -182,12 +182,12 @@ I'm venturing deep into the **Blue Team** side of the cyber landscape — focuse
 <summary>🛡️ <b>python-security-toolkit</b> — 30-script Python security suite</summary>
 <br/>
 
-A structured **30-script toolkit** covering the full security lifecycle. Currently **6 scripts deployed** with the recon phase complete:
+A structured **30-script toolkit** covering the full security lifecycle. Currently **7 scripts deployed** with the recon phase complete and network scanning underway:
 
 | Module | Scripts | What It Does |
 |--------|---------|-------------|
 | `recon/` | `whois_lookup.py`, `dns_resolver.py`, `subdomain_enum.py`, `web_recon.py`, `email_harvester.py` | OSINT, domain intel, subdomain brute-forcing, web tech fingerprinting |
-| `scanning/` | `host_discovery.py` | Ping sweeps, ARP scanning, network host enumeration |
+| `scanning/` | `host_discovery.py`, `port_scanner.py` | Ping sweeps, ARP scanning, TCP Connect/SYN port scanning & service detection |
 | `hardening/` | 🔄 *Coming soon* | Password auditing, SSH config checks, SSL validation |
 | `log-analysis/` | 🔄 *Coming soon* | Brute-force detection, intrusion pattern matching, file integrity |
 | `crypto/` | 🔄 *Coming soon* | Hash cracking, cipher tools, steganography |
