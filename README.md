@@ -159,7 +159,15 @@ I'm venturing deep into the **Blue Team** side of the cyber landscape — focuse
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ACESVAGE&theme=algolia&no-bg=true&no-frame=true&column=7&margin-w=10&margin-h=10" width="95%"/>
+  <!-- 
+    NOTE: The upstream demo service (github-profile-trophy.vercel.app) has been paused by Vercel (HTTP 402 Payment Required).
+    To restore trophies, deploy your own instance for free from https://github.com/ryo-ma/github-profile-trophy and update the endpoint URL.
+  -->
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://img.shields.io/badge/Trophies-Self--Host%20Instance%20Ready-00bfff?style=for-the-badge&logo=github&labelColor=0d1117" alt="GitHub Trophies Status"/>
+  </a>
+  <br/><br/>
+  <sub><i>🏆 Showcase temporarily paused while upstream Vercel deployment is offline. Check live activity and streaks below!</i></sub>
 </div>
 
 <!-- ═══════════════════ ANIMATED DIVIDER ═══════════════════ -->
@@ -179,7 +187,7 @@ I'm venturing deep into the **Blue Team** side of the cyber landscape — focuse
 ### 🔍 What's Inside
 
 <details>
-<summary>🛡️ <b>python-security-toolkit</b> — 30-script Python security suite</summary>
+<summary>🛡️ <b>python-security-toolkit</b> — 30-script Python security suite (7/30 deployed)</summary>
 <br/>
 
 A structured **30-script toolkit** covering the full security lifecycle. Currently **7 scripts deployed** with the recon phase complete and network scanning underway:
@@ -196,28 +204,38 @@ A structured **30-script toolkit** covering the full security lifecycle. Current
 </details>
 
 <details>
-<summary>🎯 <b>c-threat-hunter</b> — Low-level malware detection in C</summary>
+<summary>🎯 <b>c-threat-hunter</b> — 20-program C malware & threat hunting suite (1/20 deployed)</summary>
 <br/>
 
-**20 C programs** for binary inspection, memory analysis, and threat hunting at the OS level:
+A low-level **20-program C suite** exploring OS internals, malware detection, and binary analysis (Win32 & POSIX). Currently **1 program deployed** with Phase 1 static analysis underway:
 
-- 🔬 **PE Header Parser** — Dissects Windows executables: DOS/NT headers, sections, imports & exports
-- 🧠 **Memory Analysis** — Detect RWX allocations, process hollowing, injected DLLs
-- 🛡️ **System Integrity** — Audit persistence vectors, detect API hooks, monitor filesystems
-- Built with **C11**, cross-platform (MinGW / GCC / Clang)
+| Phase | Module | Programs | What It Does |
+|---|---|---|---|
+| `Phase 1` | `static-analysis/` | `pe_header_parser.c` (✅ deployed), `elf_header_parser.c` (⏳ next), `section_entropy.c`, `string_extractor.c`, `hash_validator.c` | DOS/NT headers, section mapping, imports/exports, entropy calculation, string carving |
+| `Phase 2` | `process-inspection/` | 🔄 *Coming soon* (`proc_enumerator.c`, `hollowing_detector.c`, etc.) | Snapshot inspection, DLL enumeration, thread start auditing, process hollowing detection |
+| `Phase 3` | `memory-analysis/` | 🔄 *Coming soon* (`page_perms_audit.c`, `pattern_scanner.c`, etc.) | RWX page auditing, memory scanning, memory dumps, VAD tree walking |
+| `Phase 4` | `system-integrity/` | 🔄 *Coming soon* (`autorun_auditor.c`, `hook_detector.c`, etc.) | Run keys, inline API hooks (ntdll detours), driver auditing, real-time FIM |
+
+- Built with **C11**, cross-platform (MinGW / GCC / Clang / MSVC)
+- Includes standalone compilation scripts, unified Makefiles, and modular headers
 
 </details>
 
 <details>
-<summary>🐧 <b>linux-admin-scripts</b> — Bash automation for sysadmin & security</summary>
+<summary>🐧 <b>linux-admin-scripts</b> — 30-script Bash sysadmin & security suite (4/30 deployed)</summary>
 <br/>
 
-Production-ready Bash scripts for Linux administration:
+A structured **30-script Bash suite** covering Linux administration and cybersecurity automation. Currently **4 scripts deployed** in Phase 1 (Foundation):
 
-- 👤 **User Management** — Interactive user/group management, sudo policies
-- 💾 **Disk Management** — Storage diagnostics, cleanup, partitions & quotas
-- 🌐 **Network Management** — Interface config, DNS, open port auditing, firewall rules
-- 📦 **Backup & Restore** — Tar archives, incremental backups, rsync mirrors, cron scheduling
+| Phase | Module | Scripts | What It Does |
+|---|---|---|---|
+| `Phase 1` | `admin/` | `user_management.sh`, `disk_management.sh`, `network_management.sh`, `backup_restore.sh` | Interactive user/group administration, storage diagnostics & quotas, network diagnostics & firewall rules, tar/rsync incremental backups |
+| `Phase 2` | `cybersecurity/scanning` & `recon` | 🔄 *Coming soon* (`host_discovery.sh`, `port_scanner.sh`, `subdomain_enum.sh`, etc.) | Ping sweeps, port scanning, OSINT domain reconnaissance, system hardening |
+| `Phase 3` | `cybersecurity/log-analysis` | 🔄 *Coming soon* (`failed_login_detector.sh`, `intrusion_detector.sh`, etc.) | Failed login & brute-force detection, file integrity checking, network traffic monitoring |
+| `Phase 4` | `cybersecurity/ctf` | 🔄 *Coming soon* (`web_recon.sh`, `hash_cracker_helper.sh`, etc.) | Web directory busting, password hash cracking assistance, CTF utilities |
+
+- Tested across **Ubuntu, Debian, Fedora, CentOS, RHEL, and Arch**
+- Robust error handling (`set -euo pipefail`), root privilege verification, and ANSI colorized outputs
 
 </details>
 
@@ -358,10 +376,10 @@ nmap --script vuln --script-args=unsafe=1 -sV <target>
 
 ```
 🔄 Currently Building:
-├── 🔫 Network scanning scripts (port scanner, banner grabber, vuln scanner)
-├── 🔐 System hardening tools (SSH auditor, password checker, SSL validator)
-├── 📊 Log analysis & threat detection (brute-force detection, IDS patterns)
-└── 🧠 Memory analysis tools in C (RWX detection, process hollowing detector)
+├── 🐍 Python Toolkit: Network scanning (host_discovery ✅, port_scanner ✅, banner_grabber ⏳)
+├── ⚙️ C Threat Hunter: Static analysis (pe_header_parser ✅, elf_header_parser ⏳)
+├── 🐧 Linux Admin Suite: Core sysadmin (user_mgmt ✅, disk_mgmt ✅, net_mgmt ✅, backup ✅, monitor ⏳)
+└── 🔐 Hardening & Memory analysis: SSH auditor, SSL validator & RWX detection
 
 🎯 On the Horizon:
 ├── 🏴 CTF challenge scripts & writeups
