@@ -353,7 +353,7 @@ nmap --script vuln --script-args=unsafe=1 -sV <target>
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ACESVAGE&show_icons=true&theme=github_dark&bg_color=0d1117&border_color=00bfff&icon_color=00bfff&title_color=00bfff&text_color=c9d1d9&ring_color=00bfff&hide_border=false" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ACESVAGE&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&bg_color=0d1117&border_color=00bfff&icon_color=00bfff&title_color=00bfff&text_color=c9d1d9&ring_color=00bfff&hide_border=false" height="180" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ACESVAGE&layout=compact&theme=github_dark&bg_color=0d1117&border_color=00bfff&title_color=00bfff&text_color=c9d1d9&hide_border=false&langs_count=8" height="180" />
 </div>
 
