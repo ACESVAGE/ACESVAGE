@@ -222,14 +222,14 @@ A low-level **20-program C suite** exploring OS internals, malware detection, an
 </details>
 
 <details>
-<summary>🐧 <b>linux-admin-scripts</b> — 30-script Bash sysadmin & security suite (4/30 deployed)</summary>
+<summary>🐧 <b>linux-admin-scripts</b> — 30-script Bash sysadmin & security suite (5/30 deployed)</summary>
 <br/>
 
-A structured **30-script Bash suite** covering Linux administration and cybersecurity automation. Currently **4 scripts deployed** in Phase 1 (Foundation):
+A structured **30-script Bash suite** covering Linux administration and cybersecurity automation. Currently **5 scripts deployed** in Phase 1 (Foundation):
 
 | Phase | Module | Scripts | What It Does |
 |---|---|---|---|
-| `Phase 1` | `admin/` | `user_management.sh`, `disk_management.sh`, `network_management.sh`, `backup_restore.sh` | Interactive user/group administration, storage diagnostics & quotas, network diagnostics & firewall rules, tar/rsync incremental backups |
+| `Phase 1` | `admin/` | `user_management.sh`, `disk_management.sh`, `network_management.sh`, `backup_restore.sh`, `system_monitor.sh` | Interactive user/group administration, storage diagnostics & quotas, network diagnostics & firewall rules, tar/rsync incremental backups, real-time CPU/RAM/Swap/IO system monitoring & alert watchdog |
 | `Phase 2` | `cybersecurity/scanning` & `recon` | 🔄 *Coming soon* (`host_discovery.sh`, `port_scanner.sh`, `subdomain_enum.sh`, etc.) | Ping sweeps, port scanning, OSINT domain reconnaissance, system hardening |
 | `Phase 3` | `cybersecurity/log-analysis` | 🔄 *Coming soon* (`failed_login_detector.sh`, `intrusion_detector.sh`, etc.) | Failed login & brute-force detection, file integrity checking, network traffic monitoring |
 | `Phase 4` | `cybersecurity/ctf` | 🔄 *Coming soon* (`web_recon.sh`, `hash_cracker_helper.sh`, etc.) | Web directory busting, password hash cracking assistance, CTF utilities |
