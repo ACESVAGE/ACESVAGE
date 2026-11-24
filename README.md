@@ -378,7 +378,7 @@ nmap --script vuln --script-args=unsafe=1 -sV <target>
 🔄 Currently Building:
 ├── 🐍 Python Toolkit: Network scanning (host_discovery ✅, port_scanner ✅, banner_grabber ⏳)
 ├── ⚙️ C Threat Hunter: Static analysis (pe_header_parser ✅, elf_header_parser ⏳)
-├── 🐧 Linux Admin Suite: Core sysadmin (user_mgmt ✅, disk_mgmt ✅, net_mgmt ✅, backup ✅, monitor ⏳)
+├── 🐧 Linux Admin Suite: Core sysadmin (user_mgmt ✅, disk_mgmt ✅, net_mgmt ✅, backup ✅, monitor ✅, log_mgr ⏳)
 └── 🔐 Hardening & Memory analysis: SSH auditor, SSL validator & RWX detection
 
 🎯 On the Horizon:
