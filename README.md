@@ -229,7 +229,7 @@ A structured **30-script Bash suite** covering Linux administration and cybersec
 
 | Phase | Module | Scripts | What It Does |
 |---|---|---|---|
-| `Phase 1` | `admin/` | `user_management.sh`, `disk_management.sh`, `network_management.sh`, `backup_restore.sh`, `system_monitor.sh` | Interactive user/group administration, storage diagnostics & quotas, network diagnostics & firewall rules, tar/rsync incremental backups, real-time CPU/RAM/Swap/IO system monitoring & alert watchdog |
+| `Phase 1` | `admin/` | `user_management.sh`, `disk_management.sh`, `network_management.sh`, `backup_restore.sh` | Interactive user/group administration, storage diagnostics & quotas, network diagnostics & firewall rules, tar/rsync incremental backups |
 | `Phase 2` | `cybersecurity/scanning` & `recon` | 🔄 *Coming soon* (`host_discovery.sh`, `port_scanner.sh`, `subdomain_enum.sh`, etc.) | Ping sweeps, port scanning, OSINT domain reconnaissance, system hardening |
 | `Phase 3` | `cybersecurity/log-analysis` | 🔄 *Coming soon* (`failed_login_detector.sh`, `intrusion_detector.sh`, etc.) | Failed login & brute-force detection, file integrity checking, network traffic monitoring |
 | `Phase 4` | `cybersecurity/ctf` | 🔄 *Coming soon* (`web_recon.sh`, `hash_cracker_helper.sh`, etc.) | Web directory busting, password hash cracking assistance, CTF utilities |
@@ -378,7 +378,7 @@ nmap --script vuln --script-args=unsafe=1 -sV <target>
 🔄 Currently Building:
 ├── 🐍 Python Toolkit: Network scanning (host_discovery ✅, port_scanner ✅, banner_grabber ⏳)
 ├── ⚙️ C Threat Hunter: Static analysis (pe_header_parser ✅, elf_header_parser ⏳)
-├── 🐧 Linux Admin Suite: Core sysadmin (user_mgmt ✅, disk_mgmt ✅, net_mgmt ✅, backup ✅, monitor ✅, log_mgr ⏳)
+├── 🐧 Linux Admin Suite: Core sysadmin (user_mgmt ✅, disk_mgmt ✅, net_mgmt ✅, backup ✅, monitor ⏳)
 └── 🔐 Hardening & Memory analysis: SSH auditor, SSL validator & RWX detection
 
 🎯 On the Horizon:
