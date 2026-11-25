@@ -294,46 +294,7 @@ nmap --script vuln --script-args=unsafe=1 -sV <target>
 
 ## 🐍 Contribution Snake
 
-<!-- 
-  ⚠️  TO ACTIVATE THE SNAKE ANIMATION:
-  
-  1. Go to your ACESVAGE/ACESVAGE repo on GitHub
-  2. Create file: .github/workflows/snake.yml  
-  3. Paste this workflow config:
 
-  name: Generate Snake
-  on:
-    schedule:
-      - cron: "0 */12 * * *"
-    workflow_dispatch:
-    push:
-      branches: [main, master]
-  permissions:
-    contents: write
-  jobs:
-    build:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v4
-        - uses: Platane/snk@v3
-          id: snake-gif
-          with:
-            github_user_name: ${{ github.repository_owner }}
-            outputs: |
-              dist/github-snake.svg
-              dist/github-snake-dark.svg?palette=github-dark
-              dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-        - uses: crazy-max/ghaction-github-pages@v4
-          with:
-            target_branch: output
-            build_dir: dist
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  4. Go to Settings > Actions > General > Workflow permissions > "Read and write permissions"
-  5. Run the workflow manually from Actions tab
-  6. Once the output branch is created, uncomment the image below!
--->
 
 <div align="center">
 
