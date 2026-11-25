@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 240" width="340" height="240" role="img" aria-label="Nmap NSE Recon Output">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; stroke: #1f2937; stroke-width: 1.5; }
+      .bar { fill: #161b22; }
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; font-size: 11.5px; }
+      .title { fill: #8b949e; font-size: 11px; font-weight: 600; }
+      .cyan { fill: #00bfff; font-weight: 700; }
+      .ok { fill: #00ff88; }
+      .warn { fill: #ffbd2e; }
+      .muted { fill: #8b949e; }
+      .txt { fill: #e6edf3; }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.35; }
+      }
+      .live { animation: pulse 1.8s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="1" y="1" width="338" height="238" rx="10" />
+  <path class="bar" d="M 1 11 Q 1 1 11 1 L 329 1 Q 339 1 339 11 L 339 32 L 1 32 Z" />
+  <line x1="1" y1="32" x2="339" y2="32" stroke="#1f2937" stroke-width="1" />
+
+  <circle cx="18" cy="16" r="5" fill="#ff5f56" />
+  <circle cx="36" cy="16" r="5" fill="#ffbd2e" />
+  <circle cx="54" cy="16" r="5" fill="#27c93f" />
+  <text class="mono title" x="88" y="20">nmap --script=default,vuln</text>
+
+  <!-- Live indicator -->
+  <circle class="live" cx="318" cy="16" r="4" fill="#00ff88" />
+
+  <!-- Output -->
+  <text class="mono muted" x="16" y="54">PORT      STATE  SERVICE    NSE</text>
+  <line x1="16" y1="62" x2="324" y2="62" stroke="#21262d" stroke-width="1" />
+
+  <text class="mono" x="16" y="82"><tspan class="cyan">22/tcp</tspan><tspan class="ok">    open   </tspan><tspan class="txt">ssh        </tspan><tspan class="muted">ssh-hostkey</tspan></text>
+  <text class="mono" x="16" y="104"><tspan class="cyan">80/tcp</tspan><tspan class="ok">    open   </tspan><tspan class="txt">http       </tspan><tspan class="muted">http-headers</tspan></text>
+  <text class="mono" x="16" y="126"><tspan class="cyan">443/tcp</tspan><tspan class="ok">   open   </tspan><tspan class="txt">https      </tspan><tspan class="muted">ssl-enum-ciphers</tspan></text>
+  <text class="mono" x="16" y="148"><tspan class="cyan">3306/tcp</tspan><tspan class="warn">  filt   </tspan><tspan class="txt">mysql      </tspan><tspan class="muted">acl-enforced</tspan></text>
+
+  <line x1="16" y1="166" x2="324" y2="166" stroke="#21262d" stroke-width="1" />
+  <text class="mono" x="16" y="188"><tspan class="cyan">|_</tspan><tspan class="muted"> http-title: </tspan><tspan class="txt">Internal SOC Portal</tspan></text>
+  <text class="mono" x="16" y="210"><tspan class="ok">Nmap done:</tspan><tspan class="muted"> 1 IP scanned · </tspan><tspan class="cyan">0 critical CVEs</tspan></text>
+</svg>

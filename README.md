@@ -34,23 +34,19 @@
 ## 🧬 `whoami`
 
 ```python
-class SecurityAnalyst:
-    def __init__(self):
-        self.alias       = "ACESVAGE"
-        self.role        = "Aspiring Blue Team Operator"
-        self.focus       = ["Threat Hunting", "Network Defense",
-                           "Log Analysis", "Incident Response"]
-        self.philosophy  = "Understand the attack to build the defense."
-        self.daily_grind = "Write code. Break things. Defend everything."
-
-    def current_mission(self):
-        return "Building an arsenal of defensive security tools"
+profile = {
+    "handle":   "ACESVAGE",
+    "track":    "Blue Team / SOC Operations",
+    "building": ["python-security-toolkit", "c-threat-hunter", "linux-admin-scripts"],
+    "training": "TryHackMe (Pre-Security -> SOC Level 1)",
+    "rule":     "Fundamentals first. No black-box tools.",
+}
 ```
 
 </td>
 <td width="45%" align="center">
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTd1OGUxZjA3cTZxbGl1dXdheXFpdWF6bGEzb2NucnVncnpqNGRuaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif" width="320"/>
+<img src="./assets/soc-terminal.svg" width="380" alt="ACESVAGE SOC Terminal"/>
 
 <sub><i>🔒 Defending the perimeter...</i></sub>
 
@@ -279,7 +275,7 @@ nmap --script vuln --script-args=unsafe=1 -sV <target>
 </td>
 <td width="300" align="center">
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWg2dGh3c3lmNjU1a3p3MWpyeGE4Y2o2azM5OWNqZTdqMThkOWI5eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif" width="260"/>
+<img src="./assets/nse-recon.svg" width="310" alt="Nmap NSE Recon Output"/>
 
 <sub><i>🔍 Scanning the network...</i></sub>
 
@@ -288,47 +284,6 @@ nmap --script vuln --script-args=unsafe=1 -sV <target>
 </table>
 
 > I leverage NSE scripts heavily alongside my **custom Python recon tools** to build comprehensive target profiles during authorized assessments.
-
-<!-- ═══════════════════ ANIMATED DIVIDER ═══════════════════ -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
-
-## 🐍 Contribution Snake
-
-
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ACESVAGE/ACESVAGE/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ACESVAGE/ACESVAGE/output/github-snake.svg">
-  <img alt="github-snake" src="https://raw.githubusercontent.com/ACESVAGE/ACESVAGE/output/github-snake-dark.svg">
-</picture>
-
-<sub><i>🐍 Watch the snake devour my contributions</i></sub>
-
-</div>
-
-<!-- ═══════════════════ ANIMATED DIVIDER ═══════════════════ -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ACESVAGE&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&bg_color=0d1117&border_color=00bfff&icon_color=00bfff&title_color=00bfff&text_color=c9d1d9&ring_color=00bfff&hide_border=false" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ACESVAGE&layout=compact&theme=github_dark&bg_color=0d1117&border_color=00bfff&title_color=00bfff&text_color=c9d1d9&hide_border=false&langs_count=8" height="180" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ACESVAGE&theme=github-dark-blue&background=0d1117&border=00bfff&stroke=00bfff&ring=00bfff&fire=ff6600&currStreakLabel=00bfff&sideLabels=00bfff&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ACESVAGE&theme=github-dark&bg_color=0d1117&color=00bfff&line=00bfff&point=ff6600&area=true&area_color=00264d&hide_border=true" width="95%" />
-</div>
 
 <!-- ═══════════════════ ANIMATED DIVIDER ═══════════════════ -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
@@ -480,6 +435,45 @@ The progression I'm working through is deliberate — Pre-Security builds the ne
   <img src="https://img.shields.io/badge/View_All_Credly_Badges-Credly_Profile-FF6B00?style=for-the-badge&logo=credly&logoColor=white&labelColor=0d1117" />
 </a>
 
+</div>
+
+<!-- ═══════════════════ ANIMATED DIVIDER ═══════════════════ -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ACESVAGE/ACESVAGE/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ACESVAGE/ACESVAGE/output/github-snake.svg">
+  <img alt="github-snake" src="https://raw.githubusercontent.com/ACESVAGE/ACESVAGE/output/github-snake-dark.svg">
+</picture>
+
+<sub><i>🐍 Watch the snake devour my contributions</i></sub>
+
+</div>
+
+<!-- ═══════════════════ ANIMATED DIVIDER ═══════════════════ -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ACESVAGE&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&bg_color=0d1117&border_color=00bfff&icon_color=00bfff&title_color=00bfff&text_color=c9d1d9&ring_color=00bfff&hide_border=false" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ACESVAGE&layout=compact&theme=github_dark&bg_color=0d1117&border_color=00bfff&title_color=00bfff&text_color=c9d1d9&hide_border=false&langs_count=8" height="180" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ACESVAGE&theme=github-dark-blue&background=0d1117&border=00bfff&stroke=00bfff&ring=00bfff&fire=ff6600&currStreakLabel=00bfff&sideLabels=00bfff&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ACESVAGE&theme=github-dark&bg_color=0d1117&color=00bfff&line=00bfff&point=ff6600&area=true&area_color=00264d&hide_border=true" width="95%" />
 </div>
 
 <!-- ═══════════════════ ANIMATED DIVIDER ═══════════════════ -->
