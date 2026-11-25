@@ -391,6 +391,167 @@ nmap --script vuln --script-args=unsafe=1 -sV <target>
 <!-- ═══════════════════ ANIMATED DIVIDER ═══════════════════ -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
+## 🎓 Certifications — Building the Foundation
+
+<div align="center">
+
+> *"You can't defend what you don't understand. Getting the fundamentals right isn't optional — it's the bedrock everything else is built on."*
+
+</div>
+
+These certifications mark the **deliberate first steps of my security journey**. Before hunting threats in log files, before writing detection logic, before dissecting malware — you have to understand the landscape. Each of these credentials was chosen to lock in foundational knowledge across cybersecurity theory, industrial threat environments, and enterprise Linux administration — three pillars I believe every serious Blue Team operator must master before anything else. These aren't just checkboxes; they represent hours of study, hands-on labs, and a mindset shift that shapes how I approach every tool I build.
+
+<br/>
+
+---
+
+### 🔵 Cybersecurity Fundamentals — IBM SkillsBuild
+
+<table>
+<tr>
+<td width="58%">
+
+**📌 Issuer:** IBM SkillsBuild
+**🗓️ Level:** Foundational
+
+**💬 My Take:**
+
+This was my intentional entry point into the world of cybersecurity — and deliberately so. IBM's Cybersecurity Fundamentals course forced me to think about the *why* before the *how*. Understanding threat intelligence frameworks, the CIA triad, risk management principles, and the anatomy of cyberattacks before ever touching a tool gave me a mental model that now shapes every line of code I write and every script I build.
+
+Getting the core concepts right matters enormously. Without a solid conceptual foundation, you're just running commands you don't truly understand — and that's exactly the kind of operator I didn't want to be. This cert was the starting gun.
+
+**🛠️ Core Areas Covered:**
+- Threat intelligence & the cyberattack lifecycle
+- CIA Triad — Confidentiality, Integrity, Availability
+- Risk management & vulnerability assessment frameworks
+- Identity & Access Management (IAM) principles
+- Cryptography foundations & secure communication models
+- Security operations & incident response fundamentals
+
+</td>
+<td width="42%" align="center">
+
+<img src="https://img.shields.io/badge/IBM_SkillsBuild-Cybersecurity_Fundamentals-054ADA?style=for-the-badge&logo=ibm&logoColor=white&labelColor=0d1117" />
+
+<br/><br/>
+
+<a href="https://www.credly.com/badges/4c332087-d42d-4f99-9b9a-3e8b0b377d4d/public_url">
+  <img src="https://img.shields.io/badge/🏅_VERIFY_BADGE-Credly-FF6B00?style=for-the-badge&logoColor=white&labelColor=0d1117" />
+</a>
+
+<br/><br/>
+
+<sub><i>🔒 Verified digital credential<br/>issued by IBM SkillsBuild</i></sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🟡 Industrial Cybersecurity Essentials — Cisco
+
+<table>
+<tr>
+<td width="58%">
+
+**📌 Issuer:** Cisco
+**🗓️ Level:** Foundational / Specialized
+
+**💬 My Take:**
+
+Operational Technology (OT) and Industrial Control Systems (ICS) security is one of the most critically underestimated attack surfaces in the entire cybersecurity landscape. When critical infrastructure is compromised, the consequences aren't measured in data breaches — they're measured in real-world disruption: power grids going dark, water treatment failures, pipeline shutdowns.
+
+This Cisco course opened my eyes to the unique challenges of securing industrial environments where **availability often takes precedence over confidentiality** — a complete inversion of the IT security mindset. Understanding how threat actors move from the enterprise network into OT environments, and how incidents like Stuxnet rewrote the rulebook on cyber warfare, deepened my respect for how wide and consequential the threat landscape really is. Knowing this makes me a more complete defender.
+
+**🛠️ Core Areas Covered:**
+- ICS / SCADA / OT architecture & threat modelling
+- Purdue Model & industrial network segmentation principles
+- OT-specific attack vectors & real-world case studies (Stuxnet, ICS ransomware)
+- Differences between IT and OT security priorities & risk tolerances
+- Industrial protocol vulnerabilities (Modbus, DNP3, EtherNet/IP)
+- Securing the IT/OT convergence boundary
+
+</td>
+<td width="42%" align="center">
+
+<img src="https://img.shields.io/badge/Cisco-Industrial_Cybersecurity_Essentials-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white&labelColor=0d1117" />
+
+<br/><br/>
+
+<a href="https://www.credly.com/badges/e86c445a-2f7d-4e4f-b007-7d5d61b9aa86/public_url">
+  <img src="https://img.shields.io/badge/🏅_VERIFY_BADGE-Credly-FF6B00?style=for-the-badge&logoColor=white&labelColor=0d1117" />
+</a>
+
+<br/><br/>
+
+<sub><i>🔒 Verified digital credential<br/>issued by Cisco</i></sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🔴 Red Hat System Administration I — RH124 Ver.10 — Red Hat
+
+<table>
+<tr>
+<td width="58%">
+
+**📌 Issuer:** Red Hat
+**🗓️ Level:** Foundational / Professional
+
+**💬 My Take:**
+
+You cannot secure what you cannot administer. This is the core reason I pursued Red Hat's RH124 — not just to learn Linux, but to learn *enterprise-grade* Linux the right way. Red Hat's curriculum is rigorous, hands-on, and built on doing rather than passive reading. Every concept is validated through the terminal.
+
+This course gave me the operational muscle memory that now directly powers my `linux-admin-scripts` toolkit. When I write a script for user management, disk administration, or system monitoring, I'm not guessing — I know exactly what's happening at the OS level and exactly what an adversary is looking for when they land on a Linux box. RH124 is how you go from "Linux user" to "Linux operator" — and that distinction matters deeply in Blue Team work.
+
+**🛠️ Core Areas Covered:**
+- RHEL system architecture, boot process & systemd
+- User/group management & filesystem permission hardening
+- Storage administration — LVM, partitions & filesystems
+- Systemd service management & process inspection
+- Firewall configuration (firewalld) & SELinux policy fundamentals
+- SSH hardening, networking & secure remote administration
+
+</td>
+<td width="42%" align="center">
+
+<img src="https://img.shields.io/badge/Red_Hat-RH124_System_Administration_I-EE0000?style=for-the-badge&logo=redhat&logoColor=white&labelColor=0d1117" />
+
+<br/><br/>
+
+<a href="https://www.credly.com/badges/b0a066bf-3398-4229-bfb9-ab5c10852f00/public_url">
+  <img src="https://img.shields.io/badge/🏅_VERIFY_BADGE-Credly-FF6B00?style=for-the-badge&logoColor=white&labelColor=0d1117" />
+</a>
+
+<br/><br/>
+
+<sub><i>🔒 Verified digital credential<br/>issued by Red Hat</i></sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+<sub><i>🎯 These are the foundations. More certifications are actively being pursued as I advance deeper into the Blue Team landscape — CompTIA Security+, Cisco CyberOps, and beyond.</i></sub>
+
+<br/><br/>
+
+<a href="https://www.credly.com/users/brooklyn-kidiga">
+  <img src="https://img.shields.io/badge/View_All_Badges-Credly_Profile-FF6B00?style=for-the-badge&logo=credly&logoColor=white&labelColor=0d1117" />
+</a>
+
+</div>
+
+<!-- ═══════════════════ ANIMATED DIVIDER ═══════════════════ -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
+
 ## 🌐 Connect
 
 <div align="center">
