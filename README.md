@@ -352,145 +352,117 @@ nmap --script vuln --script-args=unsafe=1 -sV <target>
 <!-- ═══════════════════ ANIMATED DIVIDER ═══════════════════ -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
-## 🎓 Certifications — Building the Foundation
+## 🎓 Certifications — The Foundation Path
 
 <div align="center">
 
-> *"You can't defend what you don't understand. Getting the fundamentals right isn't optional — it's the bedrock everything else is built on."*
+> *"Getting the fundamentals right isn't optional — it's the bedrock everything else is built on."*
 
 </div>
 
-These certifications mark the **deliberate first steps of my security journey**. Before hunting threats in log files, before writing detection logic, before dissecting malware — you have to understand the landscape. Each of these credentials was chosen to lock in foundational knowledge across cybersecurity theory, industrial threat environments, and enterprise Linux administration — three pillars I believe every serious Blue Team operator must master before anything else. These aren't just checkboxes; they represent hours of study, hands-on labs, and a mindset shift that shapes how I approach every tool I build.
+Every certification and learning path here was a **deliberate milestone — not a checkbox**. These credentials were chosen to build the mental model before the muscle memory — covering cybersecurity theory, industrial threat environments, enterprise Linux, and hands-on lab-driven practice. Each one connects directly to the Blue Team work I'm building toward.
+
+<br/>
+
+```
+🛡️  CERTIFICATION PATH — FOUNDATION PHASE
+══════════════════════════════════════════════════════════════════════════
+
+  ◉ [ START ] Zero → Security Mindset
+  │
+  │
+  ├──▶  🔵  Cybersecurity Fundamentals · IBM SkillsBuild ........... ✅ VERIFIED
+  │         "IBM forced me to think about the why before the how.
+  │          CIA triad, risk frameworks, attack anatomy — the
+  │          starting gun. Without this, you're just running
+  │          commands you don't understand."
+  │         [ CIA Triad ] [ Threat Intel ] [ Risk Mgmt ] [ IAM ] [ Cryptography ]
+  │
+  ├──▶  🟡  Industrial Cybersecurity Essentials · Cisco ............. ✅ VERIFIED
+  │         "OT/ICS is one of the most underestimated attack
+  │          surfaces. Where availability beats confidentiality.
+  │          Where a compromise means a power grid going dark —
+  │          not just a data breach."
+  │         [ ICS/SCADA ] [ Purdue Model ] [ OT Protocols ] [ IT-OT Boundary ]
+  │
+  ├──▶  🔴  Red Hat System Administration I (RH124) · Red Hat ....... ✅ VERIFIED
+  │         "You can't secure what you can't administer. RH124
+  │          is how you go from Linux user to Linux operator.
+  │          This powers my entire linux-admin-scripts toolkit."
+  │         [ RHEL ] [ systemd ] [ LVM ] [ SELinux ] [ firewalld ] [ SSH ]
+  │
+  ├──▶  🟢  TryHackMe — Cybersecurity Learning Path ................. 🔄 IN PROGRESS
+  │         Hands-on, lab-driven training covering attack techniques,
+  │         detection methods, and real Blue Team operations.
+  │         Progress updates posted as each module is completed.
+  │         │
+  │         ├── Pre-Security ............................. 🔄 Currently Active
+  │         ├── Cybersecurity 101 ........................ ⏳ Up Next
+  │         └── SOC Level 1 ............................. ⏳ On Deck
+  │
+  └──▶  ◎  CompTIA Security+  ·  Cisco CyberOps Associate ....... 🎯 On the Horizon
+
+══════════════════════════════════════════════════════════════════════════
+```
 
 <br/>
 
 ---
 
-### 🔵 Cybersecurity Fundamentals — IBM SkillsBuild
+<div align="center">
 
-<table>
-<tr>
-<td width="58%">
+### 🏅 Verified Credentials
 
-**📌 Issuer:** IBM SkillsBuild
-**🗓️ Level:** Foundational
+| Certification | Issuer | Verify |
+|:---|:---|:---:|
+| 🔵 Cybersecurity Fundamentals | IBM SkillsBuild | [🏅 Credly](https://www.credly.com/badges/4c332087-d42d-4f99-9b9a-3e8b0b377d4d/public_url) |
+| 🟡 Industrial Cybersecurity Essentials | Cisco | [🏅 Credly](https://www.credly.com/badges/e86c445a-2f7d-4e4f-b007-7d5d61b9aa86/public_url) |
+| 🔴 Red Hat System Administration I — RH124 Ver.10 | Red Hat | [🏅 Credly](https://www.credly.com/badges/b0a066bf-3398-4229-bfb9-ab5c10852f00/public_url) |
 
-**💬 My Take:**
-
-This was my intentional entry point into the world of cybersecurity — and deliberately so. IBM's Cybersecurity Fundamentals course forced me to think about the *why* before the *how*. Understanding threat intelligence frameworks, the CIA triad, risk management principles, and the anatomy of cyberattacks before ever touching a tool gave me a mental model that now shapes every line of code I write and every script I build.
-
-Getting the core concepts right matters enormously. Without a solid conceptual foundation, you're just running commands you don't truly understand — and that's exactly the kind of operator I didn't want to be. This cert was the starting gun.
-
-**🛠️ Core Areas Covered:**
-- Threat intelligence & the cyberattack lifecycle
-- CIA Triad — Confidentiality, Integrity, Availability
-- Risk management & vulnerability assessment frameworks
-- Identity & Access Management (IAM) principles
-- Cryptography foundations & secure communication models
-- Security operations & incident response fundamentals
-
-</td>
-<td width="42%" align="center">
-
-<img src="https://img.shields.io/badge/IBM_SkillsBuild-Cybersecurity_Fundamentals-054ADA?style=for-the-badge&logo=ibm&logoColor=white&labelColor=0d1117" />
-
-<br/><br/>
-
-<a href="https://www.credly.com/badges/4c332087-d42d-4f99-9b9a-3e8b0b377d4d/public_url">
-  <img src="https://img.shields.io/badge/🏅_VERIFY_BADGE-Credly-FF6B00?style=for-the-badge&logoColor=white&labelColor=0d1117" />
-</a>
-
-<br/><br/>
-
-<sub><i>🔒 Verified digital credential<br/>issued by IBM SkillsBuild</i></sub>
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
-### 🟡 Industrial Cybersecurity Essentials — Cisco
+### 🟢 Currently Pursuing — TryHackMe Cybersecurity Learning Path
 
 <table>
 <tr>
 <td width="58%">
 
-**📌 Issuer:** Cisco
-**🗓️ Level:** Foundational / Specialized
+**📌 Platform:** TryHackMe &nbsp;|&nbsp; **🗓️ Status:** 🔄 Active
 
-**💬 My Take:**
+**💬 Why TryHackMe:**
 
-Operational Technology (OT) and Industrial Control Systems (ICS) security is one of the most critically underestimated attack surfaces in the entire cybersecurity landscape. When critical infrastructure is compromised, the consequences aren't measured in data breaches — they're measured in real-world disruption: power grids going dark, water treatment failures, pipeline shutdowns.
+Theory only takes you so far. TryHackMe bridges the gap between knowing concepts and actually applying them in realistic conditions. The platform's browser-based labs mean I'm not just reading about port scanning, log analysis, or threat detection — I'm doing it in live environments, against real targets, in structured scenarios that mirror actual SOC workflows.
 
-This Cisco course opened my eyes to the unique challenges of securing industrial environments where **availability often takes precedence over confidentiality** — a complete inversion of the IT security mindset. Understanding how threat actors move from the enterprise network into OT environments, and how incidents like Stuxnet rewrote the rulebook on cyber warfare, deepened my respect for how wide and consequential the threat landscape really is. Knowing this makes me a more complete defender.
+The progression I'm working through is deliberate — Pre-Security builds the networking and Linux fundamentals, Cybersecurity 101 locks in the core security concepts hands-on, and SOC Level 1 is where it all comes together: real threat detection, SIEM workflows, and alert triage in a simulated Security Operations Center.
 
-**🛠️ Core Areas Covered:**
-- ICS / SCADA / OT architecture & threat modelling
-- Purdue Model & industrial network segmentation principles
-- OT-specific attack vectors & real-world case studies (Stuxnet, ICS ransomware)
-- Differences between IT and OT security priorities & risk tolerances
-- Industrial protocol vulnerabilities (Modbus, DNP3, EtherNet/IP)
-- Securing the IT/OT convergence boundary
+**🗺️ Path Progression:**
 
-</td>
-<td width="42%" align="center">
-
-<img src="https://img.shields.io/badge/Cisco-Industrial_Cybersecurity_Essentials-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white&labelColor=0d1117" />
-
-<br/><br/>
-
-<a href="https://www.credly.com/badges/e86c445a-2f7d-4e4f-b007-7d5d61b9aa86/public_url">
-  <img src="https://img.shields.io/badge/🏅_VERIFY_BADGE-Credly-FF6B00?style=for-the-badge&logoColor=white&labelColor=0d1117" />
-</a>
-
-<br/><br/>
-
-<sub><i>🔒 Verified digital credential<br/>issued by Cisco</i></sub>
-
-</td>
-</tr>
-</table>
-
----
-
-### 🔴 Red Hat System Administration I — RH124 Ver.10 — Red Hat
-
-<table>
-<tr>
-<td width="58%">
-
-**📌 Issuer:** Red Hat
-**🗓️ Level:** Foundational / Professional
-
-**💬 My Take:**
-
-You cannot secure what you cannot administer. This is the core reason I pursued Red Hat's RH124 — not just to learn Linux, but to learn *enterprise-grade* Linux the right way. Red Hat's curriculum is rigorous, hands-on, and built on doing rather than passive reading. Every concept is validated through the terminal.
-
-This course gave me the operational muscle memory that now directly powers my `linux-admin-scripts` toolkit. When I write a script for user management, disk administration, or system monitoring, I'm not guessing — I know exactly what's happening at the OS level and exactly what an adversary is looking for when they land on a Linux box. RH124 is how you go from "Linux user" to "Linux operator" — and that distinction matters deeply in Blue Team work.
-
-**🛠️ Core Areas Covered:**
-- RHEL system architecture, boot process & systemd
-- User/group management & filesystem permission hardening
-- Storage administration — LVM, partitions & filesystems
-- Systemd service management & process inspection
-- Firewall configuration (firewalld) & SELinux policy fundamentals
-- SSH hardening, networking & secure remote administration
+| Module | Focus | Status |
+|:---|:---|:---:|
+| Pre-Security | Networking, Linux & Web fundamentals | 🔄 Active |
+| Cybersecurity 101 | Core security concepts hands-on | ⏳ Up Next |
+| SOC Level 1 | Threat detection, SIEM, alert triage | ⏳ On Deck |
 
 </td>
 <td width="42%" align="center">
 
-<img src="https://img.shields.io/badge/Red_Hat-RH124_System_Administration_I-EE0000?style=for-the-badge&logo=redhat&logoColor=white&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/TryHackMe-Cybersecurity_Learning_Path-212C42?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=0d1117" />
 
 <br/><br/>
 
-<a href="https://www.credly.com/badges/b0a066bf-3398-4229-bfb9-ab5c10852f00/public_url">
-  <img src="https://img.shields.io/badge/🏅_VERIFY_BADGE-Credly-FF6B00?style=for-the-badge&logoColor=white&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/STATUS-IN_PROGRESS-00bfff?style=for-the-badge&labelColor=0d1117" />
+
+<br/><br/>
+
+<a href="https://tryhackme.com/p/brooklynkidiga">
+  <img src="https://img.shields.io/badge/🟢_View_THM_Profile-TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=0d1117" />
 </a>
 
 <br/><br/>
 
-<sub><i>🔒 Verified digital credential<br/>issued by Red Hat</i></sub>
+<sub><i>🎯 Profile updated as each<br/>module is completed</i></sub>
 
 </td>
 </tr>
@@ -500,12 +472,12 @@ This course gave me the operational muscle memory that now directly powers my `l
 
 <div align="center">
 
-<sub><i>🎯 These are the foundations. More certifications are actively being pursued as I advance deeper into the Blue Team landscape — CompTIA Security+, Cisco CyberOps, and beyond.</i></sub>
+<sub><i>🎯 These are the foundations. More certifications actively being pursued as I advance deeper into the Blue Team landscape.</i></sub>
 
 <br/><br/>
 
 <a href="https://www.credly.com/users/brooklyn-kidiga">
-  <img src="https://img.shields.io/badge/View_All_Badges-Credly_Profile-FF6B00?style=for-the-badge&logo=credly&logoColor=white&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/View_All_Credly_Badges-Credly_Profile-FF6B00?style=for-the-badge&logo=credly&logoColor=white&labelColor=0d1117" />
 </a>
 
 </div>
