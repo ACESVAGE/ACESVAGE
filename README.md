@@ -47,7 +47,9 @@ profile = {
 <td width="45%" align="center">
 
 <img src="./assets/soc-terminal.svg" width="380" alt="ACESVAGE SOC Terminal"/>
-
+<br/><br/>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTd1OGUxZjA3cTZxbGl1dXdheXFpdWF6bGEzb2NucnVncnpqNGRuaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif" width="320"/>
+<br/>
 <sub><i>🔒 Defending the perimeter...</i></sub>
 
 </td>
@@ -276,7 +278,9 @@ nmap --script vuln --script-args=unsafe=1 -sV <target>
 <td width="300" align="center">
 
 <img src="./assets/nse-recon.svg" width="310" alt="Nmap NSE Recon Output"/>
-
+<br/><br/>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWg2dGh3c3lmNjU1a3p3MWpyeGE4Y2o2azM5OWNqZTdqMThkOWI5eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif" width="280"/>
+<br/>
 <sub><i>🔍 Scanning the network...</i></sub>
 
 </td>
