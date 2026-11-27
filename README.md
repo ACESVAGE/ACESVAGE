@@ -38,7 +38,7 @@ profile = {
     "handle":   "ACESVAGE",
     "track":    "Blue Team / SOC Operations",
     "building": ["python-security-toolkit", "c-threat-hunter", "linux-admin-scripts"],
-    "training": "TryHackMe (Pre-Security -> SOC Level 1)",
+    "training": "TryHackMe (Pre-Security ✅ -> Cybersecurity 101 🔄 -> SOC Level 1)",
     "rule":     "Fundamentals first. No black-box tools.",
 }
 ```
@@ -355,9 +355,9 @@ Every certification and learning path here was a **deliberate milestone — not 
   │         detection methods, and real Blue Team operations.
   │         Progress updates posted as each module is completed.
   │         │
-  │         ├── Pre-Security ............................. 🔄 Currently Active
-  │         ├── Cybersecurity 101 ........................ ⏳ Up Next
-  │         └── SOC Level 1 ............................. ⏳ On Deck
+  │         ├── Pre-Security .................................... ✅ COMPLETED
+  │         ├── Cybersecurity 101 ............................... 🔄 IN PROGRESS
+  │         └── SOC Level 1 .................................... ⏳ UP NEXT
   │
   └──▶  ◎  CompTIA Security+  ·  Cisco CyberOps Associate ....... 🎯 On the Horizon
 
@@ -377,6 +377,7 @@ Every certification and learning path here was a **deliberate milestone — not 
 | 🔵 Cybersecurity Fundamentals | IBM SkillsBuild | [🏅 Credly](https://www.credly.com/badges/4c332087-d42d-4f99-9b9a-3e8b0b377d4d/public_url) |
 | 🟡 Industrial Cybersecurity Essentials | Cisco | [🏅 Credly](https://www.credly.com/badges/e86c445a-2f7d-4e4f-b007-7d5d61b9aa86/public_url) |
 | 🔴 Red Hat System Administration I — RH124 Ver.10 | Red Hat | [🏅 Credly](https://www.credly.com/badges/b0a066bf-3398-4229-bfb9-ab5c10852f00/public_url) |
+| 🟢 Pre-Security Learning Path | TryHackMe | [🏅 TryHackMe](https://tryhackme.com/p/brooklynkidiga) |
 
 </div>
 
@@ -400,9 +401,23 @@ The progression I'm working through is deliberate — Pre-Security builds the ne
 
 | Module | Focus | Status |
 |:---|:---|:---:|
-| Pre-Security | Networking, Linux & Web fundamentals | 🔄 Active |
-| Cybersecurity 101 | Core security concepts hands-on | ⏳ Up Next |
-| SOC Level 1 | Threat detection, SIEM, alert triage | ⏳ On Deck |
+| Pre-Security | Networking, Linux, Windows & Web fundamentals | ✅ Completed |
+| Cybersecurity 101 | Core security concepts hands-on | 🔄 In Progress |
+| SOC Level 1 | Threat detection, SIEM, alert triage | ⏳ Up Next |
+
+<details>
+<summary>📦 <b>Pre-Security Path Breakdown (5/5 Modules Completed)</b></summary>
+<br/>
+
+| Module | Core Concepts & Labs Covered | Status |
+|:---|:---|:---:|
+| 🌐 **Network Fundamentals** | Networking concepts, LANs, OSI model, Packets & Frames, Extending networks | ✅ Completed |
+| 🌍 **How the Web Works** | DNS in detail, HTTP/HTTPS in detail, Web server architectures | ✅ Completed |
+| 🐧 **Linux Fundamentals** | Linux navigation, directory hierarchy, user permissions, process & package management | ✅ Completed |
+| 🪟 **Windows Fundamentals** | Windows filesystem, Desktop/CLI navigation, Control Panel, Task Manager & Registry | ✅ Completed |
+| 🛡️ **Cyber Security Intro** | CIA triad, offensive vs. defensive security models, basic web vulnerabilities | ✅ Completed |
+
+</details>
 
 </td>
 <td width="42%" align="center">
@@ -411,7 +426,11 @@ The progression I'm working through is deliberate — Pre-Security builds the ne
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/STATUS-IN_PROGRESS-00bfff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/PRE--SECURITY-COMPLETED-00ff88?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=0d1117" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/CURRENT-CYBERSECURITY_101-00bfff?style=for-the-badge&labelColor=0d1117" />
 
 <br/><br/>
 
