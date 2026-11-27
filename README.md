@@ -185,10 +185,10 @@ I'm venturing deep into the **Blue Team** side of the cyber landscape — focuse
 ### 🔍 What's Inside
 
 <details>
-<summary>🛡️ <b>python-security-toolkit</b> — 30-script Python security suite (7/30 deployed)</summary>
+<summary>🛡️ <b>python-security-toolkit</b> — 30-script Python security suite (8/30 deployed)</summary>
 <br/>
 
-A structured **30-script toolkit** covering the full security lifecycle. Currently **7 scripts deployed** with the recon phase complete and network scanning underway:
+A structured **30-script toolkit** covering the full security lifecycle. Currently **8 scripts deployed** with the recon phase complete and network scanning underway:
 
 | Module | Scripts | What It Does |
 |--------|---------|-------------|
